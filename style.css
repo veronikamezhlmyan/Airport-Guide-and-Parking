@@ -1,0 +1,175 @@
+body {
+	background-image: url("images/airport.jpg");
+}
+
+#page2 {
+	display: none;
+}
+
+#page3 {
+	display: none;
+}
+
+#header1 {
+	line-height: 5;
+	margin: 30px;
+	background-color: #ffffff;
+	border: 1px solid black;
+	opacity: 0.4;
+	text-align: center;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#header1 p {
+	margin: 5%;
+	font-weight: bold;
+	color: #000000;
+}
+
+#slogan {
+	line-height: 2;
+	text-align: center;
+	margin: 0;
+	background-color: #ffffff;
+	border: 1px solid black;
+	opacity: 0.4;
+	font-size: 20px;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#slogan p {
+	margin: 5%;
+	font-weight: bold;
+	color: #000000;
+}
+
+#currentgate {
+	line-height: 2;
+	margin: 0.5px;
+	background-color: #ffffff;
+	border: 1px solid black;
+	opacity: 0.5;
+	font-weight: bold;
+	font-size: 23px;
+	font-family: monospace;
+	background-image: url("images/flight.png");
+	background-repeat: no-repeat;
+	background-size: 35px 35px;
+	background-position-x: 5px;
+	background-position-y: 5px;
+	padding-left: 45px;
+}
+
+#currentgate p {
+	margin: 5%;
+	font-weight: bold;
+	color: #000000;
+}
+
+#middlepoint {
+	line-height: 2;
+	margin: 0.5px;
+	background-color: #ffffff;
+	border: 1px solid black;
+	opacity: 0.5;
+	font-weight: bold;
+	font-size: 23px;
+	font-family: monospace;
+}
+
+#middlepoint p {
+	margin: 5%;
+	font-weight: bold;
+	color: #000000;
+}
+
+#targetgate {
+	line-height: 2;
+	margin: 0.5px;
+	background-color: #ffffff;
+	border: 1px solid black;
+	opacity: 0.5;
+	font-weight: bold;
+	font-size: 23px;
+	font-family: monospace;
+}
+
+#targetgate p {
+	margin: 5%;
+	font-weight: bold;
+	color: #000000;
+}
+
+#availabletime {
+	line-height: 2;
+	margin: 0.5px;
+	background-color: #ffffff;
+	border: 1px solid black;
+	opacity: 0.5;
+	font-weight: bold;
+	font-size: 23px;
+	font-family: monospace;
+	background-image: url("images/arrows.png");
+	background-repeat: no-repeat;
+	background-size: 35px 35px;
+	background-position-x: 5px;
+	background-position-y: 5px;
+	padding-left: 45px;
+}
+
+#availabletime p {
+	margin: 5%;
+	font-weight: bold;
+	color: #000000;
+}
+
+#time {
+	line-height: 3;
+	color: #fff;
+	font-weight: bold;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#header2 {
+	line-height: 5;
+	margin: 30px;
+	background-color: #ffffff;
+	border: 1px solid black;
+	opacity: 0.4;
+	text-align: center;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-seri background-image: url(images/transport.png);
+	background-repeat: no-repeat;
+	background-size: 75px 75px;
+	background-position-x: 480px;
+	background-position-y: 34px;
+}
+
+#header2 p {
+	margin: 55%;
+	font-weight: bold;
+	color: #000000;
+}
+
+#parkingtime {
+	line-height: 2;
+	margin: 0.5px;
+	background-color: #ffffff;
+	border: 1px solid black;
+	opacity: 0.5;
+	font-weight: bold;
+	font-size: 23px;
+	font-family: monospace;
+}
+
+#parkingtime p {
+	margin: 5%;
+	font-weight: bold;
+	color: #000000;
+}
+
+#flooroutput {
+	line-height: 3;
+	font-weight: bold;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	color: #fff;
+}
