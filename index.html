@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>airport.guide</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div id="pages">
+        <div id="page1">
+            <h1 id="header1"> Airport Guide</h1>
+            <h4 id="slogan">Travel smart, travel well.</h4>
+        </div>
+        <div id="page2">
+            <h3 id="currentgate">Current Gate</h3>
+            <select id="currentgatebox">
+                <option selected></option>
+                <option id="gateA1">Gate A</option>
+                <option id="gateB1">Gate B</option>
+                <option id="gateC1">Gate C</option>
+                <option id="dutyfree1">Duty Free</option>
+            </select>
+            <h3 id="middlepoint">Middle Point (optional)</h3>
+            <select id="middlepointbox">
+                <option selected></option>
+                <option id="gateA2">Gate A</option>
+                <option id="gateB2">Gate B</option>
+                <option id="gateC2">Gate C</option>
+                <option id="dutyfree2">Duty Free</option>
+            </select>
+            <h3 id="targetgate">Target Gate</h3>
+            <select id="targetgatebox">
+                <option selected></option>
+                <option id="gateA3">Gate A</option>
+                <option id="gateB3">Gate B</option>
+                <option id="gateC3">Gate C</option>
+                <option id="dutyfree3">Duty Free</option>
+            </select>
+            <h3 id="availabletime">Available Time (in minutes)</h3>
+            <input type="text" id="availabletimeinput">
+            <br>
+            <button onclick="calculatetime()" id="calculatetimebutton">Calculate Time</button>
+            <br>
+            <div id="time">
+                <label>Time Left </label>
+                <span id="timeleft"></span>
+            </div>
+        </div>
+        <div id="page3">
+            <h1 id="header2"> Parking </h1>
+            <h3 id="parkingtime">How much time do you plan to park?</h3>
+            <select id="parkingtimebox">
+                <option selected></option>
+                <option id="less_than_15_minutes" value="-3">Less than 15 minutes</option>
+                <option id="1hour" value="-2">1 hour</option>
+                <option id="2hours" value="-1">2 hours</option>
+                <option id="3hours" value="0">3 hours</option>
+                <option id="more_than_3_hours" value="1">More than 3 hours</option>
+            </select>
+            <button onclick="showfloors()" id="showfloorbutton">OK</button>
+            <div id="flooroutput">
+                <label> Available floor </label>
+                <span id="availablefloor"></span>
+            </div>
+        </div>
+    </div>
+    <div id="navigation">
+        <button id="p1" onclick="gotopage1()">&lt;&lt; P1 </button>
+        <button id="p2" onclick="gotopage2()">P2 &gt;&gt;</button>
+        <button id="p3" onclick="gotopage3()">P3 &gt;&gt;</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
